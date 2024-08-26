@@ -130,7 +130,7 @@ export class HomePageComponent implements OnInit {
     }
 
     ngOnInit(): void {
-        this.checkDBList();
+        // this.checkDBList();
 
         const auth: any = getParam.kiosk ? {
             dbURL: getParam.db_host,
